@@ -1,0 +1,51 @@
+
+ .jeder {
+   font-size: 2em;
+ }
+.cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+}
+.logo {
+  
+  position: absolute;
+  width: 300px;
+  top: 10px; 
+  left: 640px;
+}
+ .titlx {
+   font-size: 1.5em;
+   text-align: center;
+   border: solid 1px;
+ }
+.col2{
+  font-size: 1.5em;
+  width: 70%;
+  float: right;
+}
+.col1{
+  width: 14%;
+  float: left;
+}
+.nav  {
+  position: absolute;
+  top:  18%;
+  left: 64%;
+}
+nav a{
+  color: white;
+  background: #4472C4;
+  font-size: 2em;
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px #222222;
+}
+nav a.current {
+  color: white;
+  background: #70AD47;
+}
+
